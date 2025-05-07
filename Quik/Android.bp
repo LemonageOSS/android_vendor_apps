@@ -1,0 +1,9 @@
+android_app_import {
+    name: "Quik",
+    apk: "Quik.apk",
+    presigned: true,
+    overrides: ["messaging"],
+    dex_preopt: {
+        enabled: false,
+    },
+}
